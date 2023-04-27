@@ -2,7 +2,7 @@ import smtplib
 import ssl
 import os
 
-# use env for more secure password storage!
+# use env for more secure password storage
 def send_email(message):
     host = "smtp.gmail.com"
     port = 465
